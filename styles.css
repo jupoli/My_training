@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: linear-gradient(to bottom right, #FFDEE9, #B5FFFC);
+    color: #333;
+}
+
+header {
+    background: #0073e6;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #005bb5;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #005bb5;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+form {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    background: #0073e6;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #005bb5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #005bb5;
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+blockquote {
+    margin: 10px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border-left: 5px solid #0073e6;
+    font-style: italic;
+    color: #555;
+}
